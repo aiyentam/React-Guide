@@ -4,10 +4,59 @@
 
 Lifecycle methods help repeat our actions in a specfic order.
 
-Ex:
+#### Lifecycle Methods
+
+##### Mounting
+
+(initialization)
+.._ componentWillMount
+.._ render
+..\* componentDidMount
 
 ```javascript
-componentDidMount(){ //is telling the code to run this first
-  this.setState
-}
+componenWillMount();
+```
+
+```javascript
+render();
+```
+
+```javascript
+componenDidMount();
+```
+
+##### Updating
+
+.._ componentWillReceiveProps
+.._ shouldComponentUpdate
+.._ componentWillUpdate
+.._ render
+..\* componentDidUpdate
+
+```javascript
+componentWillReceiveProps();
+```
+
+```javascript
+shouldComponentUpdate();
+```
+
+```javascript
+componentWillUpdate();
+```
+
+```javascript
+render();
+```
+
+```javascript
+componentDidUpdate();
+```
+
+##### Unmounting
+
+..\* componentWillUnmount
+
+```javascript
+componenWillUnmount();
 ```
