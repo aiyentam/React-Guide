@@ -9,9 +9,10 @@ Lifecycle methods help repeat our actions in a specfic order.
 ##### Mounting
 
 (initialization)
-.._ componentWillMount
-.._ render
-..\* componentDidMount
+
+* componentWillMount
+* render
+* componentDidMount
 
 ```javascript
 componenWillMount();
@@ -27,11 +28,11 @@ componenDidMount();
 
 ##### Updating
 
-.._ componentWillReceiveProps
-.._ shouldComponentUpdate
-.._ componentWillUpdate
-.._ render
-..\* componentDidUpdate
+* componentWillReceiveProps
+* shouldComponentUpdate
+* componentWillUpdate
+* render
+* componentDidUpdate
 
 ```javascript
 componentWillReceiveProps();
@@ -55,7 +56,7 @@ componentDidUpdate();
 
 ##### Unmounting
 
-..\* componentWillUnmount
+* componentWillUnmount
 
 ```javascript
 componenWillUnmount();
