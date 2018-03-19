@@ -2,7 +2,7 @@
 
 Check out each one to learn more!
 
-.._ Components
-.._ State and Props
-.._ Reusable Components
-.._ Component Lifecycle
+* Components
+* State and Props
+* Reusable Components
+* Component Lifecycle
